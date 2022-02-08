@@ -40,34 +40,22 @@ class ButtonColumn extends StatelessWidget {
             text: text1,
             style: _lastColumn(true),
           ),
-          SizedBox(height: MediaQuery
-              .of(context)
-              .size
-              .height * 0.030),
+          const SizedBox(height: 15),
           ButtonView(
             text: text2,
             style: _lastColumn(false),
           ),
-          SizedBox(height: MediaQuery
-              .of(context)
-              .size
-              .height * 0.030),
+          const SizedBox(height: 15),
           ButtonView(
             text: text3,
             style: _lastColumn(false),
           ),
-          SizedBox(height: MediaQuery
-              .of(context)
-              .size
-              .height * 0.030),
+          const SizedBox(height: 15),
           ButtonView(
             text: text4,
             style: _lastColumn(false),
           ),
-          SizedBox(height: MediaQuery
-              .of(context)
-              .size
-              .height * 0.030),
+          const SizedBox(height: 15),
           ButtonView(
             text: text5,
             style: _lastColumn(false),
