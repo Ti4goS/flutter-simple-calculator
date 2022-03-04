@@ -34,7 +34,10 @@ class _HomeViewState extends State<HomeView> {
               flex: 2,
               child: Container(
                 alignment: Alignment.bottomCenter,
-                padding: const EdgeInsets.only(top: 30, left: 15, right: 15),
+                padding: EdgeInsets.only(
+                    top: MediaQuery.of(context).size.height * 0.025,
+                    left: MediaQuery.of(context).size.width * 0.025,
+                    right: MediaQuery.of(context).size.width * 0.025),
                 decoration: const BoxDecoration(
                     color: Color(0xFFDFDEDE),
                     borderRadius: BorderRadius.only(
